@@ -1,0 +1,26 @@
+ssh ubuntu@129.204.168.148 -p 22
+Ze7bLwp-4G39Si7
+
+//python优先级
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 100
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 150
+
+//通过supervisor启动scrapyd
+ps -ef | grep supervisord
+找到pid
+kill -s SIGTERM [pid]
+
+sudo supervisord -c /etc/supervisor/supervisord.conf  （先启动supervisord）
+sudo supervisorctl -c /etc/supervisor/supervisord.conf
+
+//启动后台
+sudo /etc/init.d/nginx restart
+uwsgi --ini backend_uwsgi.ini
+
+
+
+
+http://129.204.168.148:9001 /// supervisor
+
+
+

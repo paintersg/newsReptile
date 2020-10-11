@@ -1,0 +1,16 @@
+setup.py
+newsReptile/__init__.py
+newsReptile/items.py
+newsReptile/middlewares.py
+newsReptile/pipelines.py
+newsReptile/settings.py
+newsReptile/middlewares/__init__.py
+newsReptile/middlewares/customUserAgent.py
+newsReptile/spiders/__init__.py
+newsReptile/spiders/gzdaily.py
+newsReptile/spiders/huxiu.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt

@@ -1,0 +1,79 @@
+2019-04-06 21:11:53 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: newsReptile)
+2019-04-06 21:11:53 [scrapy.utils.log] INFO: Versions: lxml 4.1.1.0, libxml2 2.9.7, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.4 |Anaconda custom (64-bit)| (default, Jan 16 2018, 10:22:32) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.1.4, Platform Windows-10-10.0.17134-SP0
+2019-04-06 21:11:53 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'newsReptile', 'COOKIES_ENABLED': False, 'LOG_FILE': 'logs\\default\\huxiu\\8a4243f6586d11e9a9ac7c67a2b4888f.log', 'NEWSPIDER_MODULE': 'newsReptile.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['newsReptile.spiders']}
+2019-04-06 21:11:54 [scrapy.extensions.telnet] INFO: Telnet Password: b4475c6dfc694313
+2019-04-06 21:11:54 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-06 21:11:54 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['newsReptile.middlewares.customUserAgent.RandomUserAgent',
+ 'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-06 21:11:54 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-06 21:11:54 [scrapy.middleware] INFO: Enabled item pipelines:
+['newsReptile.pipelines.NewsreptilePipeline']
+2019-04-06 21:11:54 [scrapy.core.engine] INFO: Spider opened
+2019-04-06 21:11:54 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-06 21:11:54 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-06 21:11:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.huxiu.com/robots.txt> (referer: None)
+2019-04-06 21:11:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.huxiu.com/search.html?s=%E7%AF%AE%E7%90%83&sort=dateline:desc> (referer: None)
+2019-04-06 21:11:54 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.huxiu.com/search.html?s=%E7%AF%AE%E7%90%83&sort=dateline:desc>
+{'date': '2019-04-06 09:24',
+ 'keyword': '',
+ 'source': '虎嗅网',
+ 'text': '',
+ 'title': '篮球、瑜伽、疏导、关爱：一座美国监狱中的实验',
+ 'url': 'https://www.huxiu.com/article/292915.html'}
+2019-04-06 21:11:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.huxiu.com/search.html?s=%E7%AF%AE%E7%90%83&sort=dateline:desc&per_page=3> (referer: None)
+2019-04-06 21:11:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.huxiu.com/search.html?s=%E7%AF%AE%E7%90%83&sort=dateline:desc&per_page=2> (referer: None)
+2019-04-06 21:11:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.huxiu.com/search.html?s=%E7%AF%AE%E7%90%83&sort=dateline:desc>
+{'date': '2019-04-05 12:44',
+ 'keyword': '',
+ 'source': '虎嗅网',
+ 'text': '',
+ 'title': '向猫狗投降的年轻人：猫和女朋友，我选猫',
+ 'url': 'https://www.huxiu.com/article/292868.html'}
+2019-04-06 21:11:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.huxiu.com/search.html?s=%E7%AF%AE%E7%90%83&sort=dateline:desc>
+{'date': '2019-04-04 14:00',
+ 'keyword': '',
+ 'source': '虎嗅网',
+ 'text': '',
+ 'title': '根植在大马的土地上：马来西亚华文媒体人的口述故事',
+ 'url': 'https://www.huxiu.com/article/292703.html'}
+2019-04-06 21:11:55 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-04-06 21:11:55 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1181,
+ 'downloader/request_count': 4,
+ 'downloader/request_method_count/GET': 4,
+ 'downloader/response_bytes': 33482,
+ 'downloader/response_count': 4,
+ 'downloader/response_status_count/200': 4,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 4, 6, 13, 11, 55, 92816),
+ 'item_scraped_count': 3,
+ 'log_count/DEBUG': 7,
+ 'log_count/INFO': 9,
+ 'response_received_count': 4,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2019, 4, 6, 13, 11, 54, 100469)}
+2019-04-06 21:11:55 [scrapy.core.engine] INFO: Spider closed (finished)

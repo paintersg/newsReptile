@@ -1,0 +1,306 @@
+2019-04-06 21:11:58 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: newsReptile)
+2019-04-06 21:11:58 [scrapy.utils.log] INFO: Versions: lxml 4.1.1.0, libxml2 2.9.7, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.4 |Anaconda custom (64-bit)| (default, Jan 16 2018, 10:22:32) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.1.4, Platform Windows-10-10.0.17134-SP0
+2019-04-06 21:11:58 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'newsReptile', 'COOKIES_ENABLED': False, 'LOG_FILE': 'logs\\default\\gzdaily\\8a6765dc586d11e9ad2d7c67a2b4888f.log', 'NEWSPIDER_MODULE': 'newsReptile.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['newsReptile.spiders']}
+2019-04-06 21:11:59 [scrapy.extensions.telnet] INFO: Telnet Password: c73437521c43089c
+2019-04-06 21:11:59 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-06 21:11:59 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['newsReptile.middlewares.customUserAgent.RandomUserAgent',
+ 'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-06 21:11:59 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-06 21:11:59 [scrapy.middleware] INFO: Enabled item pipelines:
+['newsReptile.pipelines.NewsreptilePipeline']
+2019-04-06 21:11:59 [scrapy.core.engine] INFO: Spider opened
+2019-04-06 21:11:59 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-06 21:11:59 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2019-04-06 21:11:59 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://gzdaily.dayoo.com/robots.txt> (referer: None)
+2019-04-06 21:11:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm> (referer: None)
+2019-04-06 21:11:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108320_595094.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:11:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108320_595095.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:11:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108322_595110.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:11:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108322_595106.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:11:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108322_595108.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:11:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108320_595093.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:11:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108320_595092.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:11:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108320_595091.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:11:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108322_595115.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108319_595083.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108320_595096.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108322_595113.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108311_595045.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108322_595114.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108322_595112.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108305_595010.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108297_594956.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108297_594955.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108322_595111.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108294_594943.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108322_595107.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108294_594944.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108294_594946.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108294_594942.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108294_594941.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108294_594939.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108304_595008.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108304_595005.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108304_595007.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108304_595006.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108304_595004.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108304_595003.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108304_595002.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108304_594999.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108304_595000.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108304_595001.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108294_594940.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108295_594947.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108305_595016.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108295_594948.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108294_594945.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108305_595015.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108305_595012.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108305_595014.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108305_595013.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108305_595011.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108297_594954.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108306_595020.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108303_594998.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108306_595019.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108306_595017.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108303_594997.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108306_595018.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108306_595021.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108304_595009.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108303_594993.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108307_595022.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108303_594994.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108303_594995.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108296_594953.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:02 [scrapy.core.scraper] DEBUG: Scraped from <200 http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108303_594995.htm>
+{'date': '2019-04-06',
+ 'keyword': '篮球',
+ 'source': '广州日报',
+ 'text': '广州日报讯\xa0'
+         '（全媒体记者刘鹏飞）昨日，禅城区文化广电旅游体育局局长何永庆上线2019问政产城系列访谈。记者了解到，在博物馆之城的建设上，禅城的博物馆和展示馆从原来的30多家增加到40多家；在功夫之城的建设上，禅城将整合区内多家武馆和功夫角，做大功夫名片。值得一提的是，何永庆在节目中透露，今年佛山将于11月举行功夫动作电影周。\n'
+         '举办电影周强化“功夫”名片\n'
+         '功夫和陶艺不仅是禅城的文化名片也是佛山这座城市的文化名片，如何对两者进行推广，扩大它们的知名度，是不少市民关心的问题。昨日，何永庆表示，这几年禅城在推广陶瓷和功夫上是不遗余力，不仅在其他国家做了大量的推广，还通过线上、线下活动的举办来扩大两张名片的知名度。接下来，禅城将结合佛山在11月举办的功夫动作电影周，整合区内多家武馆以及功夫角，做强佛山功夫。\n'
+         '据介绍，为了增加禅城乃至佛山旅游对外地人的吸引力，禅城区也在不断下功夫。何永庆介绍，为了吸引外地游客过夜，禅城对陶艺元素、功夫元素进行了相关梳理和整合，在主要景区的白天、晚上进行功夫展演，推出了禅城功夫体验之旅，同时还有将石湾陶瓷、10万平方米酒厂结合，给大家一个新的感受。正是这些主要展演越来越多，佛山功夫和陶瓷的品牌知名度应该说越来越高，越来越多的游客也来到禅城过夜。\n'
+         '免费开放试点体育场34家\n'
+         '随着人们生活水平的提高，体育休闲成为市民生活的一部分。记者了解到，体育活动在禅城区已经形成了比较好的体系。为了给市民更好的体育运动感受，禅城目前免费开放的试点体育场有34家，其中南庄有7家，石湾有14家，张槎有6家，祖庙辖区有7家，涵盖了篮球、足球、乒乓球、羽毛球等一系列项目。\n'
+         '那么对佛山而言，哪些体育运动最为普及？记者从佛山市文化广电旅游体育局了解到，羽毛球、乒乓球、篮球算是佛山群众体育里最受欢迎的体育活动之一。具体到禅城，何永庆告诉记者，在禅城区的群众体育中，篮球是普及得比较广的，他们每年都会举办全区性的篮球赛。此外，乒乓球、羽毛球、青少年足球等相关比赛每年都会举办，并形成一个比较好的体系。\n'
+         '有什么办法足不出户也可以订到免费的场馆？何永庆表示，市民可以“佛山群体通”的微信公众号和APP上就可以查看到相关场馆，“上面可以显示订了哪些场馆、时段是什么。”\n'
+         '紫南村正在创建4A级景区\n'
+         '谈到禅城区全域旅游的打造，何永庆表示，禅城区全域旅游提出一个观点，就是“旅游+”。首先是旅游+乡村、旅游+文化、旅游+工业、旅游+景区。乡村游是一个方面，这几年乡村游也发展得比较蓬勃，包括南庄镇的罗南生态园，现在发展得非常好。南庄镇的紫南村平时也有很多的游客，并且正在创建4A级景区。此外，莲塘的龙狮文化深厚，也有很多游客去游玩。\n'
+         '在博物馆之城的建设中，禅城区博物馆和展示馆从原来的30多家，通过一年的建设去到40多家，一年的增长率达到30%，并且涌现出很多优秀的民办企业馆、博物馆等。南庄绿岛湖东鹏打造的陶瓷博物馆、南庄华夏陶瓷博览城小镇展示馆也做得不错，东鄱小学的古灯博物馆也是一个科普基地。',
+ 'title': '佛山功夫动作电影周年底举行',
+ 'url': 'http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108303_594995.htm'}
+2019-04-06 21:12:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108311_595042.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108296_594952.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108296_594950.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108303_594996.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108311_595044.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108296_594951.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108307_595023.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108308_595029.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108308_595028.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108311_595043.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108308_595025.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108296_594949.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108299_594972.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108308_595027.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108299_594970.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108308_595026.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108299_594973.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108301_594987.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108299_594968.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108301_594986.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108299_594971.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108301_594988.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108298_594966.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108299_594969.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108298_594967.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108298_594965.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108308_595024.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108298_594964.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108298_594961.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108298_594962.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108298_594958.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108323_595122.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108298_594960.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108323_595123.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108298_594959.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108323_595121.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108323_595119.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108298_594963.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108323_595120.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108323_595118.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:04 [scrapy.core.scraper] DEBUG: Scraped from <200 http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108323_595119.htm>
+{'date': '2019-04-06',
+ 'keyword': '篮球',
+ 'source': '广州日报',
+ 'text': '广州日报全媒体记者\xa0孙嘉晖\n'
+         '2019年10月8日-15日，第一届世界沙滩运动会将在美国海滨城市圣地亚哥举行。从沙滩上的休闲运动，到正式比赛；从创办亚洲沙滩运动会，到世界沙滩运动会横空出世，我们可以清晰地看到，这项与阳光、海浪、沙滩相关的运动正在风靡世界，成为健康生活方式的重要组成部分。\n'
+         '日前，记者采访了广东理工职业学院老师、沙滩足球国际级裁判黎祺彬。他表示，沙滩运动正成为年轻人户外活动的新选择，广东有着得天独厚的海洋资源，开展沙滩运动正当其时。\n'
+         '亲民吸睛\n'
+         '沙滩运动好看又好玩\n'
+         '黎祺彬是目前中国仅有的两位国际级沙滩足球裁判之一，多次执法国际比赛的经历让他对沙滩运动有了更深入的了解。\n'
+         '他表示，沙滩足球近年来发展迅速，比赛通常在海边举行，一边放迪斯科音乐一边比赛，阳光、沙滩、美女、足球……比赛中有很多空中球配合，踢法比较花哨，观赏性强。\n'
+         '近年来，包括内蒙古等内陆地区也开始发展沙滩运动。黎祺彬告诉记者，按竞赛要求，挖40厘米深的坑，填沙即可比赛。浙江舟山举办了10届全国沙滩足球锦标赛，粤西地区的阳江、湛江资源较好，沙滩运动起步较早。\n'
+         '2019年世界沙滩运动会设置了17个项目，包括沙滩排球、网球、摔跤、足球、手球等，水上项目则包括冲浪、公开水域游泳、划水、风筝冲浪等，另外还有3对3篮球、滑板等项目。\n'
+         '人物故事\n'
+         '因为热爱半年减重40斤\n'
+         '沿海地区的朋友对沙滩运动并不陌生，沙滩排球已经是奥运项目，而沙滩足球、沙滩网球、沙滩篮球等项目也颇受欢迎。\n'
+         '足球运动科班出身的黎祺彬毕业于广州体院，现就职于广东理工职业学院，因为热爱足球运动，他在读高中时就开始裁判工作的执法，如今已有15年执法经验，2007年成为五人制足球国家级裁判，2015年正式成为沙滩足球国际级裁判，2016年经过亚足联严格筛选，成功进入沙滩足球亚足联精英裁判行列。\n'
+         '值得一提的是，黎祺彬带领的校队出战十一人制省长杯、省大学生五人制比赛等，都获得了广东省前4名的好成绩并获得了“优秀教练员”的称号。\n'
+         '“这些年非常感谢广东理工职业学院的支持，让我有机会做好教学工作的同时，不断亮相国内和国际赛场，为中国足球走出亚洲做一些事情。”黎祺彬说。\n'
+         '2008年，黎祺彬的健康出了问题，导致药物性肥胖，身高1.72米的他体重最高时曾达到100公斤。\n'
+         '经过一段时间的治疗、调理，他决心重返足球场，并开始了大运动量减肥，最高峰的时候，半年减重20公斤。\n'
+         '在足球裁判界，11人制足球叫“大球”，而五人制和沙滩足球叫“小球”。黎祺彬选择了成为“小球”裁判。\n'
+         '2015年黎祺彬正式成为一名沙滩足球国际级裁判。他表示，要感谢中国足协和广州市足协的悉心栽培，成为国际裁判后，若想执法亚足联的国际比赛，还需要通过选拔认证。\n'
+         '2016年4月，黎祺彬参加了亚足联的精英裁判选拔班，顺利通过各项考核，从而从10名参选者中脱颖而出。\n'
+         '“只有参加这项选拔的裁判才能执法亚足联的正式比赛，全亚洲被推选的裁判到马来西亚亚足联总部参加培训考核。”当时有8个国家和地区的10名裁判参加培训，其中5人晋升为精英裁判，黎祺彬凭借优异的表现成功入围。\n'
+         '在中国著名裁判李志中和中国足协的栽培下，黎祺彬渐渐成长为中国足球裁判界的新锐力量。\n'
+         '2016年越南岘港亚沙会，黎祺彬亮相国际赛场，执法了3场小组赛；2017年3月马来西亚亚洲杯，他执法了半决赛，日本VS伊朗代表了亚洲最高水平，胜者不仅晋级决赛，还获得世界杯席位。中国裁判黎祺彬成为赛场的一大亮点，他以精准的判断和果敢的执法赢得观众和亚足联的一致好评。\n'
+         '“做沙滩足球裁判很累，在沙地上奔跑消耗的能量远超草地，松软的沙地把力都卸掉了。”黎祺彬说，有一次，气温高达40℃，一场比赛下来整个人都跑脱水了。\n'
+         '“我很喜欢做足球裁判，喜欢沙滩运动，就这么简单。”黎祺彬说。\n'
+         '新闻链接\xa0粤沙滩运动如火如荼\n'
+         '目前，中国沿海地区广泛开展沙滩运动，其中，山东海阳举办过第3届亚沙会，三亚将在2020年举办第6届亚沙会，广东、浙江、福建、辽宁等地也在重点发展沙滩运动。\n'
+         '作为休闲体育运动，沙滩运动有诸多优点，参与面广，娱乐性强。\n'
+         '据悉，广东阳江、湛江和惠州等沙滩运动开展得如火如荼，阳江海陵岛、惠州小径湾、湛江金沙湾等地都是沙滩运动的胜地。之前，广州亚运城曾举办过沙滩足球国际友谊赛。（孙嘉晖）',
+ 'title': '看舞动沙滩的人和事',
+ 'url': 'http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108323_595119.htm'}
+2019-04-06 21:12:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108300_594984.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108323_595116.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108323_595124.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108300_594981.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108300_594982.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108300_594980.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108323_595117.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108298_594957.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108300_594975.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108300_594977.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108300_594979.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108300_594976.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108300_594983.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108315_595073.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108300_594978.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108315_595072.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108315_595071.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108315_595070.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108315_595068.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108300_594974.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108315_595074.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108315_595063.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108315_595067.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108315_595064.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108315_595065.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108315_595066.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108302_594990.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108315_595069.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108302_594992.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108313_595058.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108313_595057.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108302_594991.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108310_595041.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108310_595040.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108312_595052.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108313_595053.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108293_594938.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108313_595055.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108302_594989.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108312_595050.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108313_595054.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108312_595051.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108312_595047.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108312_595048.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108314_595062.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108312_595049.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108314_595059.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108314_595060.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108318_595081.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108318_595082.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108314_595061.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108312_595046.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108321_595105.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108313_595056.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108321_595103.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108318_595080.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108321_595104.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108321_595102.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108321_595099.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108321_595101.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108316_595076.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108316_595075.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108324_595135.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108321_595097.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108321_595100.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108316_595077.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108324_595131.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108324_595133.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108324_595132.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108324_595134.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108324_595130.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108324_595127.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108324_595126.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108324_595125.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108321_595098.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108309_595038.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108309_595039.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108309_595037.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108324_595129.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108309_595033.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108309_595036.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108309_595035.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108309_595031.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108309_595032.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108319_595090.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108319_595089.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108319_595087.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108319_595088.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108319_595086.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108319_595085.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108322_595109.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108309_595030.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108319_595084.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108324_595128.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gzdaily.dayoo.com/pc/html/2019-04/05/content_108309_595034.htm> (referer: http://gzdaily.dayoo.com/pc/html/2019-04/05/index_2019-04-05.htm)
+2019-04-06 21:12:10 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-04-06 21:12:10 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 74841,
+ 'downloader/request_count': 197,
+ 'downloader/request_method_count/GET': 197,
+ 'downloader/response_bytes': 12567668,
+ 'downloader/response_count': 197,
+ 'downloader/response_status_count/200': 196,
+ 'downloader/response_status_count/404': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 4, 6, 13, 12, 10, 932),
+ 'item_scraped_count': 2,
+ 'log_count/DEBUG': 199,
+ 'log_count/INFO': 9,
+ 'request_depth_max': 1,
+ 'response_received_count': 197,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/404': 1,
+ 'scheduler/dequeued': 196,
+ 'scheduler/dequeued/memory': 196,
+ 'scheduler/enqueued': 196,
+ 'scheduler/enqueued/memory': 196,
+ 'start_time': datetime.datetime(2019, 4, 6, 13, 11, 59, 224761)}
+2019-04-06 21:12:10 [scrapy.core.engine] INFO: Spider closed (finished)

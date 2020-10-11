@@ -1,0 +1,212 @@
+2019-04-06 21:10:59 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: newsReptile)
+2019-04-06 21:10:59 [scrapy.utils.log] INFO: Versions: lxml 4.1.1.0, libxml2 2.9.7, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 18.9.0, Python 3.6.4 |Anaconda custom (64-bit)| (default, Jan 16 2018, 10:22:32) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.0.2o  27 Mar 2018), cryptography 2.1.4, Platform Windows-10-10.0.17134-SP0
+2019-04-06 21:10:59 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'newsReptile', 'COOKIES_ENABLED': False, 'LOG_FILE': 'logs\\default\\huxiu\\5b342c70586d11e9bdd97c67a2b4888f.log', 'NEWSPIDER_MODULE': 'newsReptile.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['newsReptile.spiders']}
+2019-04-06 21:11:00 [scrapy.extensions.telnet] INFO: Telnet Password: 9bcd2af0f661b756
+2019-04-06 21:11:00 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2019-04-06 21:11:01 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['newsReptile.middlewares.customUserAgent.RandomUserAgent',
+ 'scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-04-06 21:11:01 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-04-06 21:11:01 [scrapy.middleware] INFO: Enabled item pipelines:
+['newsReptile.pipelines.NewsreptilePipeline']
+2019-04-06 21:11:01 [scrapy.core.engine] INFO: Spider opened
+2019-04-06 21:11:01 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-04-06 21:11:01 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6024
+2019-04-06 21:11:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.huxiu.com/robots.txt> (referer: None)
+2019-04-06 21:11:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.huxiu.com/search.html?s=%E8%AE%B0%E8%80%85&sort=dateline:desc> (referer: None)
+2019-04-06 21:11:03 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.huxiu.com/search.html?s=%E8%AE%B0%E8%80%85&sort=dateline:desc>
+{'date': '2019-04-06 16:25',
+ 'keyword': '',
+ 'source': '虎嗅网',
+ 'text': '',
+ 'title': '网红第一股流血上市，张大奕的面子和网红经济里子',
+ 'url': 'https://www.huxiu.com/article/292955.html'}
+2019-04-06 21:11:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.huxiu.com/search.html?s=%E8%AE%B0%E8%80%85&sort=dateline:desc&per_page=3> (referer: None)
+2019-04-06 21:11:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.huxiu.com/search.html?s=%E8%AE%B0%E8%80%85&sort=dateline:desc&per_page=2> (referer: None)
+2019-04-06 21:11:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.huxiu.com/search.html?s=%E8%AE%B0%E8%80%85&sort=dateline:desc>
+{'date': '2019-04-06 15:38',
+ 'keyword': '',
+ 'source': '虎嗅网',
+ 'text': '',
+ 'title': '巴菲特十大投资，一个十案十面的巴菲特',
+ 'url': 'https://www.huxiu.com/article/292954.html'}
+2019-04-06 21:11:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.huxiu.com/search.html?s=%E8%AE%B0%E8%80%85&sort=dateline:desc>
+{'date': '2019-04-06 09:25',
+ 'keyword': '',
+ 'source': '虎嗅网',
+ 'text': '',
+ 'title': '短视频上线防沉迷，各家都有致命伤',
+ 'url': 'https://www.huxiu.com/article/292919.html'}
+2019-04-06 21:11:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.huxiu.com/search.html?s=%E8%AE%B0%E8%80%85&sort=dateline:desc&per_page=3>
+{'date': '2019-04-04 07:27',
+ 'keyword': '',
+ 'source': '虎嗅网',
+ 'text': '',
+ 'title': '【虎嗅早报】ofo解释“被破产”：个别用户所为，会负责到底；刘强东旗下公司回应章泽天卸任董事：系正常...',
+ 'url': 'https://www.huxiu.com/article/292622.html'}
+2019-04-06 21:11:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.huxiu.com/search.html?s=%E8%AE%B0%E8%80%85&sort=dateline:desc&per_page=2>
+{'date': '2019-04-04 22:00',
+ 'keyword': '',
+ 'source': '虎嗅网',
+ 'text': '',
+ 'title': '非洲国家媒体伦理规范评析',
+ 'url': 'https://www.huxiu.com/article/292712.html'}
+2019-04-06 21:11:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.huxiu.com/search.html?s=%E8%AE%B0%E8%80%85&sort=dateline:desc>
+{'date': '2019-04-06 09:24',
+ 'keyword': '',
+ 'source': '虎嗅网',
+ 'text': '',
+ 'title': '篮球、瑜伽、疏导、关爱：一座美国监狱中的实验',
+ 'url': 'https://www.huxiu.com/article/292915.html'}
+2019-04-06 21:11:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.huxiu.com/search.html?s=%E8%AE%B0%E8%80%85&sort=dateline:desc&per_page=3>
+{'date': '2019-04-04 07:00',
+ 'keyword': '',
+ 'source': '虎嗅网',
+ 'text': '',
+ 'title': '从被《咪蒙离婚记》“遗漏”的一个重要事实说起',
+ 'url': 'https://www.huxiu.com/article/292489.html'}
+2019-04-06 21:11:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.huxiu.com/search.html?s=%E8%AE%B0%E8%80%85&sort=dateline:desc&per_page=2>
+{'date': '2019-04-04 22:00',
+ 'keyword': '',
+ 'source': '虎嗅网',
+ 'text': '',
+ 'title': '喝出一个“贡”给侧',
+ 'url': 'https://www.huxiu.com/article/292788.html'}
+2019-04-06 21:11:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.huxiu.com/search.html?s=%E8%AE%B0%E8%80%85&sort=dateline:desc>
+{'date': '2019-04-05 20:59',
+ 'keyword': '',
+ 'source': '虎嗅网',
+ 'text': '',
+ 'title': '解读ET302空难报告：从7000英尺直插地面坠毁',
+ 'url': 'https://www.huxiu.com/article/292901.html'}
+2019-04-06 21:11:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.huxiu.com/search.html?s=%E8%AE%B0%E8%80%85&sort=dateline:desc&per_page=2>
+{'date': '2019-04-04 19:22',
+ 'keyword': '',
+ 'source': '虎嗅网',
+ 'text': '',
+ 'title': '【虎嗅晚报】京东辟谣章泽天离婚传闻：假的；京东首席公共事务官蓝烨辞职',
+ 'url': 'https://www.huxiu.com/article/292780.html'}
+2019-04-06 21:11:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.huxiu.com/search.html?s=%E8%AE%B0%E8%80%85&sort=dateline:desc>
+{'date': '2019-04-05 15:32',
+ 'keyword': '',
+ 'source': '虎嗅网',
+ 'text': '',
+ 'title': '能复活超级英雄的除了时间宝石，还有量子计算机？',
+ 'url': 'https://www.huxiu.com/article/292836.html'}
+2019-04-06 21:11:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.huxiu.com/search.html?s=%E8%AE%B0%E8%80%85&sort=dateline:desc&per_page=2>
+{'date': '2019-04-04 19:03',
+ 'keyword': '',
+ 'source': '虎嗅网',
+ 'text': '',
+ 'title': '“女装直播”出圈记：一个日本资深宅男的VR社交尝试',
+ 'url': 'https://www.huxiu.com/article/292804.html'}
+2019-04-06 21:11:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.huxiu.com/search.html?s=%E8%AE%B0%E8%80%85&sort=dateline:desc>
+{'date': '2019-04-05 12:44',
+ 'keyword': '',
+ 'source': '虎嗅网',
+ 'text': '',
+ 'title': '向猫狗投降的年轻人：猫和女朋友，我选猫',
+ 'url': 'https://www.huxiu.com/article/292868.html'}
+2019-04-06 21:11:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.huxiu.com/search.html?s=%E8%AE%B0%E8%80%85&sort=dateline:desc&per_page=2>
+{'date': '2019-04-04 18:49',
+ 'keyword': '',
+ 'source': '虎嗅网',
+ 'text': '',
+ 'title': '修仙之股',
+ 'url': 'https://www.huxiu.com/article/292801.html'}
+2019-04-06 21:11:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.huxiu.com/search.html?s=%E8%AE%B0%E8%80%85&sort=dateline:desc>
+{'date': '2019-04-05 10:13',
+ 'keyword': '',
+ 'source': '虎嗅网',
+ 'text': '',
+ 'title': '波音终于承认系统故障导致空难；贝佐斯正式离婚，保住全球首富|过去24小时发生的新鲜事儿',
+ 'url': 'https://www.huxiu.com/article/292857.html'}
+2019-04-06 21:11:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.huxiu.com/search.html?s=%E8%AE%B0%E8%80%85&sort=dateline:desc&per_page=2>
+{'date': '2019-04-04 16:36',
+ 'keyword': '',
+ 'source': '虎嗅网',
+ 'text': '',
+ 'title': '200人围攻如风达总部讨薪，供应商被欠565万自称想跳楼',
+ 'url': 'https://www.huxiu.com/article/292759.html'}
+2019-04-06 21:11:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.huxiu.com/search.html?s=%E8%AE%B0%E8%80%85&sort=dateline:desc>
+{'date': '2019-04-05 09:00',
+ 'keyword': '',
+ 'source': '虎嗅网',
+ 'text': '',
+ 'title': '新老股民、“90后”加速入市：感觉身边炒股的都在赚',
+ 'url': 'https://www.huxiu.com/article/292853.html'}
+2019-04-06 21:11:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.huxiu.com/search.html?s=%E8%AE%B0%E8%80%85&sort=dateline:desc&per_page=2>
+{'date': '2019-04-04 15:33',
+ 'keyword': '',
+ 'source': '虎嗅网',
+ 'text': '',
+ 'title': '被禁忌的李志：这个世界会好吗？',
+ 'url': 'https://www.huxiu.com/article/292734.html'}
+2019-04-06 21:11:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.huxiu.com/search.html?s=%E8%AE%B0%E8%80%85&sort=dateline:desc>
+{'date': '2019-04-05 08:46',
+ 'keyword': '',
+ 'source': '虎嗅网',
+ 'text': '',
+ 'title': '天价离婚：贝索斯保住全球首富，劈腿却遇最优雅前妻',
+ 'url': 'https://www.huxiu.com/article/292849.html'}
+2019-04-06 21:11:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.huxiu.com/search.html?s=%E8%AE%B0%E8%80%85&sort=dateline:desc&per_page=2>
+{'date': '2019-04-04 14:00',
+ 'keyword': '',
+ 'source': '虎嗅网',
+ 'text': '',
+ 'title': '根植在大马的土地上：马来西亚华文媒体人的口述故事',
+ 'url': 'https://www.huxiu.com/article/292703.html'}
+2019-04-06 21:11:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.huxiu.com/search.html?s=%E8%AE%B0%E8%80%85&sort=dateline:desc&per_page=2>
+{'date': '2019-04-04 09:08',
+ 'keyword': '',
+ 'source': '虎嗅网',
+ 'text': '',
+ 'title': '消失的新能源汽车补贴',
+ 'url': 'https://www.huxiu.com/article/292633.html'}
+2019-04-06 21:11:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.huxiu.com/search.html?s=%E8%AE%B0%E8%80%85&sort=dateline:desc&per_page=2>
+{'date': '2019-04-04 08:26',
+ 'keyword': '',
+ 'source': '虎嗅网',
+ 'text': '',
+ 'title': '法国程序员没有“996”，40多岁最受人尊敬',
+ 'url': 'https://www.huxiu.com/article/292625.html'}
+2019-04-06 21:11:07 [scrapy.core.engine] INFO: Closing spider (finished)
+2019-04-06 21:11:07 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 1236,
+ 'downloader/request_count': 4,
+ 'downloader/request_method_count/GET': 4,
+ 'downloader/response_bytes': 33534,
+ 'downloader/response_count': 4,
+ 'downloader/response_status_count/200': 4,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 4, 6, 13, 11, 7, 133624),
+ 'item_scraped_count': 22,
+ 'log_count/DEBUG': 26,
+ 'log_count/INFO': 9,
+ 'response_received_count': 4,
+ 'robotstxt/request_count': 1,
+ 'robotstxt/response_count': 1,
+ 'robotstxt/response_status_count/200': 1,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2019, 4, 6, 13, 11, 1, 613391)}
+2019-04-06 21:11:07 [scrapy.core.engine] INFO: Spider closed (finished)
